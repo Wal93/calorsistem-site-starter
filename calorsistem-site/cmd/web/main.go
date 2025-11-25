@@ -16,7 +16,7 @@ func main() {
     mux := http.NewServeMux()
 
     mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintln(w, "Sito Calor Sistem – versione di base deployata con CapRover.")
+        fmt.Fprintln(w, "App in go – versione di base deployata con CapRover.")
     })
 
     log.Printf("Server in ascolto sulla porta %s\n", port)
