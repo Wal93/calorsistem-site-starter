@@ -35,8 +35,7 @@ jobs:
           caprover login \
             --caproverName github-ci \
             --caproverUrl "$CAPROVER_HOST" \
-            --caproverPassword "$CAPROVER_PASSWORD" \
-            --caproverPasswordPersistency false
+            --caproverPassword "$CAPROVER_PASSWORD" 
 
           caprover deploy \
             -a "$CAPROVER_APP_NAME" \
